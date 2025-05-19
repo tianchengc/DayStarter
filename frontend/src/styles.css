@@ -1,0 +1,28 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.subscribe input {
+  padding: 8px;
+  margin-right: 4px;
+}
+
+.subscribe button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
